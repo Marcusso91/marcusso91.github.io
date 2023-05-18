@@ -153,6 +153,13 @@ ul{
   #skills{
 	   height: 424px;
 	 }
+ .skill-header {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.second-set{
+	margin-bottom: 60px;
+}
   #contact{
 	   height: 360px;
 	 }
@@ -356,6 +363,10 @@ section h3 {
   margin-bottom: 50px;
 }
 
+.second-set{
+	margin-bottom: 80px;
+}
+
 .icon {
 	width: 8.5em;
 	height: 9em;
@@ -380,3 +391,4 @@ section h3 {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('assets/background-pics/frontend_developer_pic.jpg');
 }
+
