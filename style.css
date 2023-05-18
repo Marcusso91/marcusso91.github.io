@@ -40,8 +40,8 @@ ul{
 }
 /* Nav menu */
 .nav{
-    width: 25%;
-    height: 100%;
+    width: 100%;
+    height: 70%;
     position: fixed;
     background-color: var(--black);
     overflow: hidden;
@@ -98,7 +98,7 @@ ul{
  
  /* Toggle menu icon */
 .side-menu:checked ~ nav{
-    max-height: 57%;
+    max-height: 61%;
 }
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
@@ -128,7 +128,6 @@ ul{
     .menu a:hover{
         background-color: transparent;
         color: var(--gray);
-
     }
 
     .hamb{
@@ -137,39 +136,70 @@ ul{
 }
 
 @media screen and (max-width: 720px) {
+	
   /*changes reflects on screen with a width of 720px and below*/
+  
    header li {
    margin: 0px 0px 0px 0px;
   }
-	section h2 {
+  
+  #hero {
+	  height: 530px;
+	 }
+  #about{
+	   height: 765px;
+	 }
+  #skills{
+	   height: 424px;
+	 }
+  #contact{
+	   height: 360px;
+	 }
+  section h2 {
+    font-size: 1.9em !important;
+    /* padding-top: 0px; */
+    /* padding-bottom: 0px; */
+    margin-top: 50px;
+    margin-bottom: 20px !important;
+  }
+   section h3 {
     font-size: 1.6em !important;
   }
-	section h3 {
-    font-size: 1.6em !important;
-  }
-	h4 {
+  h4 {
     margin: 0px 3px !important;
   }
-	#hero h1 {
+  
+  #hero h1 {
     font-size: 2em !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+  
+  section div ul{
+	  margin-bottom: 30px;
+  }
+	 
   .icon {
-	width: 3.875rem !important;
-	height: 4.25rem !important;
-  }
+	width: 100px !important;
+	height: 108px !important;
+	margin-bottom: 30px !important;
+     }
+	
+	.icon-card {
+	margin: 10px !important;
+   }
+
 	section div li  {
     font-size: 1.3em !important;
   }
 	section div p {
     font-size: 1.3em !important; 
   }
-	.firebase_text {
-    left: 84% !important;
-    width: 166px !important;
-  }
+  
 	#hero .profile-img {
-    width: 187px !important;
-    border-radius: 45%;
+    width: 165px !important;
+    border-radius: 48% !important;
+    padding-top: 35px;
   }
 }
 
@@ -206,20 +236,14 @@ ul{
 	height: 2.25rem;
 	}
 }
-
-@media  (min-width: 800px) {
   
-}
-
 header h4{
 	
 	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-	
 }
 	
 section{
-	
-	height: 100vh;
+	height: 680px;
 	border: 1px solid black;
 	display: flex;
 	justify-content: center;
@@ -234,6 +258,7 @@ section{
 section div p {
 	font-size: 1.5em;
 	padding: 0px 30px 0px 30px !important;
+	margin-bottom: 50px;
 }
 
 section div  li{
@@ -266,12 +291,14 @@ h4{
 
 #hero .profile-img {
     width: 230px;
-    border-radius: 45%;
+    border-radius: 60%;
+    margin-top: 90px;
 }
 
 ul{
 	list-style-type: none;
 	padding: 0px 7px 0px 9px !important;
+	text-align-last: center;
 }
 
 footer {
@@ -280,24 +307,18 @@ footer {
 }
 
 #hero h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
+    margin-bottom: 60px;
 }
 
 section h3 {
     font-size: 2.5em;
-}
-
-
-.firebase_text {
-  position: relative;
-  top: 50%;
-  left: 84%;
-  transform: translate(-50%, -50%);
-  width: 173px;
 }
 
 .fa-envelope{
@@ -330,12 +351,13 @@ section h3 {
 
 
 .skill-header {
-  margin-top: 1rem;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .icon {
-	width: 5.875rem;
-	height: 6.25rem;
+	width: 8.5em;
+	height: 9em;
 }
 
 .icon-card {
@@ -343,7 +365,7 @@ section h3 {
 	border-radius: 20px;
 	box-shadow: 0 3px 10px;
 	padding: 20px;
-	margin: 25px;
+	margin: 40px;
 }
 
 #hero {
