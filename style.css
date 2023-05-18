@@ -155,21 +155,21 @@ ul{
   #contact{
 	   height: 360px;
 	 }
-  section h2 {
+	section h2 {
     font-size: 1.9em !important;
     /* padding-top: 0px; */
     /* padding-bottom: 0px; */
     margin-top: 50px;
     margin-bottom: 20px !important;
   }
-   section h3 {
+	section h3 {
     font-size: 1.6em !important;
   }
-  h4 {
+	h4 {
     margin: 0px 3px !important;
   }
   
-  #hero h1 {
+	#hero h1 {
     font-size: 2em !important;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -183,11 +183,11 @@ ul{
 	width: 100px !important;
 	height: 108px !important;
 	margin-bottom: 30px !important;
-     }
+	}
 	
 	.icon-card {
 	margin: 10px !important;
-   }
+}
 
 	section div li  {
     font-size: 1.3em !important;
